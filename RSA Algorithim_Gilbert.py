@@ -1,9 +1,3 @@
-#!/usr/bin/env python
-# coding: utf-8
-
-# In[2]:
-
-
 from Crypto.PublicKey import RSA
 from Crypto.Cipher import PKCS1_OAEP   #You have to install conda install pycryptodome to have those library
 import binascii
@@ -30,7 +24,7 @@ decrypted = decryptor.decrypt(encrypted)      #decyrpting message
 print('Decrypted:', decrypted.decode('utf-8'))
 
 
-# In[ ]:
+
 
 
 
